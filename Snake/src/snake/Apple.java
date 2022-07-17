@@ -25,10 +25,6 @@ public class Apple {
 			sn.addPoint();
 			sn.increaseLength();
 		}
-		/*if(s.getSnakeY() <= yApple + SIZE && s.getSnakeY() >= yApple) {
-			randPosition();
-			s.snake.addPoint();
-		}*/
 	}
 	
 	public void draw(Graphics g) {
