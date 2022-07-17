@@ -116,17 +116,6 @@ public class Snake extends Canvas implements Runnable {
 		Color c1 = new Color(245, 245, 245);
 		g.setColor(Color.black);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
-		
-		/*for(int y = 0; y < HEIGHT; y += 40) {
-			for(int x = 0; x < WIDTH; x += 80) {
-				if(y/40 == 1 || y/40 == 3 || y/40 == 5 || y/40 == 7 || y/40 == 9 ||
-						y/40 == 11 || y/40 == 13 || y/40 == 15) {
-					g.fillRect(x + 40, y, 40, 40);
-				} else {
-					g.fillRect(x, y, 40, 40);
-				}
-			}
-		}*/
 	}
 	
 	public void move(char direction) {
